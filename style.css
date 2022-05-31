@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(45deg, #351D63, #836373);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-1{
+    background-color: #050311;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+.input{
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.button{
+    background-image: linear-gradient(45deg, #3A2D95, #EA8281);
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background-image: linear-gradient(45deg, #362d6d, #c05d5b);
+}
+.ancora{
+    color: white;
+    position: relative;
+    left: 66px;
+    top: 5px;
+    text-decoration: none;
+}
+.collapse navbar-collapse{
+    right: 0%;
+}
